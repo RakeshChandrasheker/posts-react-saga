@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should Match Snapshot 1`] = `
+<ul
+  className="pagination"
+>
+  <li
+    className="page-item"
+  >
+    <a
+      className="page-link"
+      href="!#"
+      onClick={[Function]}
+    >
+      1
+    </a>
+  </li>
+</ul>
+`;

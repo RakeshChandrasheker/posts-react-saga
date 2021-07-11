@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should Match Snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="titleWithIcon"
+  >
+    <div
+      className="title"
+    >
+      Mock_Title
+    </div>
+    <img
+      alt="Pencil icon"
+      className="pencilIcon"
+      onClick={[Function]}
+      src="pencil.png"
+    />
+  </div>
+  <div
+    className="description"
+  >
+    Mock_Description
+  </div>
+  <BasicModal
+    closeModal={[Function]}
+    isModalOpen={true}
+    saveChanges={[Function]}
+  />
+</div>
+`;

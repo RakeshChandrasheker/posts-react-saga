@@ -1,0 +1,23 @@
+@import '../../assets/scss/main.scss';
+
+.form {
+  @include flexCenter;
+  @include flexColumn;
+  width: 100%;
+
+  .inputField {
+    width: 95%;
+    padding: 1em 1em;
+    margin-bottom: 0.5em;
+    @include flexCenter;
+    border: 1px solid $cardBoxShadow;
+    border-radius: 0.25em;
+  }
+
+  textarea {
+    width: 569px;
+    height: 149px;
+    resize: none;
+    font-family: Arial;
+  }
+}
